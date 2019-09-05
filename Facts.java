@@ -10,7 +10,7 @@ public class Facts
 {
     public static void main(String[] args) {
         System.out.println("We present the fol\nlowing \\\\\\\\\\\\ facts for your "
-                            + "extracurricular edification: \4");
+                            + "extracurricular e0dification: \4");
         
                             
       
