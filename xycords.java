@@ -16,6 +16,5 @@ public class xyCords{
     System.out.println();
     System.out.println("Your coordinates are: (" + xCord + "," + yCord + ")");
     System.out.println("The distance between your coordinates is: " + Math.abs(xCord - yCord));
-
   }
 }
