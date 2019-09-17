@@ -12,7 +12,7 @@ public class Receipt{
     String dateTime = "9/17/2019 9:48 AM";
     System.out.println("The time and Date are: " + dateTime);
     System.out.println();
-    //getting amount of books, movies and peanuts
+    //getting amount of books, movies and peanuts from user
     System.out.println("Amount of books");
     double books = scan.nextDouble();
     System.out.println("Amount of movies")
