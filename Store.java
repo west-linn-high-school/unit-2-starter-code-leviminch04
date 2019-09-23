@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 import java.text.DecimalFormat;
 
-public class Recipt{
+public class Store{
   public static void main(String[] Args){
     Scanner scan = new Scanner(System.in);
     DecimalFormat fmt = new DecimalFormat("0.00");
@@ -86,7 +86,8 @@ public class Recipt{
     System.out.println("Shipping fee for peanuts: " + fmtPeanutShip);
     System.out.println("Sales tax: " + fmtSaleTax);
     System.out.println("---------------------------------");
-    System.out.println("Total: " + fmtSaleTotal);
+    System.out.println("Total: " + fmtTotal);
+    System.out.println("Total with sales tax: " + fmtSaleTotal);
 
 
 
