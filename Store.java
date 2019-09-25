@@ -87,7 +87,7 @@ public class Store{
     System.out.println("Sales tax: " + fmtSaleTax);
     System.out.println("---------------------------------");
     System.out.println("Total: " + fmtTotal);
-    System.out.println("Total with sales tax: " + fmtSaleTotal);
+    System.out.println("Total with sales tax: " + fmtSaleTot);
 
 
 
