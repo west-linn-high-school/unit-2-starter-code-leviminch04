@@ -14,13 +14,13 @@ public class Snowman extends Application{
     int xSide = 500;
     int ySide = 500;
     //shapes
-    Rectangle snow = new Rectangle(0, xSide, 300, ySide);
+    Rectangle snow = new Rectangle(0, 500, 300, 500);
 
     //Color and Fill
     snow.setStroke(Color.WHITE);
 
     Group root = new Group(snow);
-    Scene scene = new Scene(root, xSide, ySide, Color.LIGHTBLUE);
+    Scene scene = new Scene(root, xSide, ySide, Color.BLUE);
 
     stage.setTitle("Snowman");
     stage.setScene(scene);
